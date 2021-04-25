@@ -1,3 +1,8 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world</text>
-<button>注册</button>
+<text class="title">{{name}}</text>
+<view>你的年龄{{age}}</view>
+<view wx:for="{{movies}}" wx:key='index'>{{item.name}}{{item.year}}</view>
+<view>当前计数：{{count}}</view>
+<open-data type="userCity"></open-data>
+<button>-1</button>
+<view wx:for="{{list}}">{{item.itemType}}</view>

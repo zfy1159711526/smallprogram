@@ -3,5 +3,28 @@
     "pages/home/home",
     "pages/about/about",
     "pages/cart/cart"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "购物街",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#1677ff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "pages/images/home.png",
+      "selectedIconPath": "pages/images/home_active.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "用户",
+      "iconPath": "pages/images/user.png",
+      "selectedIconPath": "pages/images/user_active.png"
+    }]
+  }
 }

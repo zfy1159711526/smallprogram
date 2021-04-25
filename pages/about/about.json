@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText" :"用户界面",
+  "enablePullDownRefresh": true
 }
