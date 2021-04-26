@@ -1,0 +1,4 @@
+<!--components/my-cpn/my-cpn.wxml-->
+<text class="content">组件cpn</text>
+<button size="mini">组件按钮</button>
+<view>{{title}}</view>

@@ -1,22 +1,18 @@
-// pages/cart/cart.js
+// pages/pricatice/pricatice.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    nowDate: new Date().toLocaleString()
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // setInterval(()=>{
-    //   this.setData({
-    //     nowDate: new Date().toLocaleString()
-    //   })
-    // },1000)
+
   },
 
   /**

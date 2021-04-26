@@ -1,0 +1,20 @@
+/* components/new-tabbar/new-tabbar.wxss */
+.box {
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: brown;
+ 
+}
+.active .text {
+  border-bottom: 2px solid brown;
+  padding: 0 10rpx;
+}

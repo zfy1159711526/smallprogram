@@ -1,0 +1,2 @@
+<!--pages/pricatice/pricatice.wxml-->
+<new-tabbar title='{{["流行","新款","精选"]}}'></new-tabbar>

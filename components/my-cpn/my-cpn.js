@@ -1,10 +1,13 @@
-// pages/about/about.js
+// components/my-cpn/my-cpn.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    title: {
+      type: String,
+      value: '我是默认标题'
+    }
   },
 
   /**

@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/about/about",
-    "pages/cart/cart"
-  ]
+    "pages/pricatice/pricatice",
+    "pages/cart/cart",
+    "pages/home/home"
+  ],
+  "sitemapLocation": "sitemap.json"
 }

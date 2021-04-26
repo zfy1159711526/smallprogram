@@ -1,0 +1,8 @@
+<!--components/new-tabbar/new-tabbar.wxml-->
+<view class="box">
+  <block wx:for="{{title}}" wx:key="index">
+    <view class="item {{currentIndex === index ? 'active':''}}" bindtap="handleColorChange" data-index="{{index}}">
+      <text class="text">{{item}}</text>
+    </view>
+  </block>
+</view>
